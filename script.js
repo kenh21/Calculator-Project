@@ -19,7 +19,9 @@ function clearNum() {
     result.remove()
 }*/
 
-let addNum = function(a,b) {
+
+
+/*let addNum = function(a,b) {
 return a + b;
 }
 console.log(addNum(1,68));
@@ -39,4 +41,16 @@ let divideNum = function(a, b) {
     return a / b;
 };
 
-console.log(divideNum(66, 3));
+console.log(divideNum(66, 3));*/
+
+let operate = function(a, b, operator) {
+    switch(operator) {
+        case 'add' : return a + b
+        case 'minus' : return a - b
+        case 'multiply' : return a * b
+        case 'divide' : return a / b 
+    }
+        
+} 
+
+console.log(operate(3, 3, 'divide'))
