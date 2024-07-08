@@ -53,4 +53,4 @@ let operate = function(a, b, operator) {
         
 } 
 
-console.log(operate(3, 3, 'divide'))
+console.log(operate(10, 3, 'add'))
