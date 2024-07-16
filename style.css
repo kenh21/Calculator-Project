@@ -5,17 +5,14 @@ body {
     background: linear-gradient(to right, rgb(0, 79, 128), rgb(192, 241, 255));
     display: flex;
     justify-content: center;
-    
+    height: 70vh;
 }
-
-
 
 .calculator-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-basis: 600px;
-
     
 }
 
@@ -34,8 +31,8 @@ button {
     padding: 40px;
     justify-content: center;
     align-items: center;
-    
 }
+
 button:hover {
     background-color: rgba(255, 255, 255, 0.90);
 }
